@@ -1,0 +1,911 @@
+*{
+    font-family: 'Poppins';
+}
+
+
+.dark-navbar{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+}
+
+@media screen and (min-width: 760px) {
+    .wraper {
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+
+    #carouselExampleCaptions {
+        margin-top: 0px !important;
+    }
+
+    .formCard{
+        margin-top: -60px !important;
+    }
+
+    .mybox img {
+        width: 50% !important;
+    }
+    .slide-text {
+        padding: 10px;
+        text-align: center !important;
+    }
+
+    .testimonials{
+        margin-top: 100px;
+    }
+
+    .Back, .forward {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        padding: 17px;
+        color: white!important;
+        transition: 0.4s ease;
+        border-radius: 0 5px 5px 0;
+        user-select: none;
+        font-size: 100px;
+        margin-top: 300px;
+    }
+    .forward {
+        right: 250px;
+        border-radius: 4px 0 0 4px;
+      }
+}
+
+.call-img{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    z-index: 10;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 10px;
+}
+
+.call-img img {
+    width: 40px;
+}
+.wp-img{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 90px;
+    z-index: 10;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 10px;
+}
+
+.wp-img img {
+    width: 40px;
+}
+
+.mybox{
+    border: solid #0e5f29 2px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.mybox img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nav-item{
+    color: white;
+}
+
+.formCard{
+    margin-top: -200px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.tImage{
+    /* margin-top: -150px; */
+    width: 100%;
+    /* opacity: 0.5; */
+}
+.navbar{
+    z-index: 2;
+}
+
+.navbar-collapse li{
+    font-size: 25px;
+    
+}
+
+.aboutBox {
+    text-justify: distribute-all-lines;
+    text-align: center;
+    padding: 50px;
+}
+
+.divider-line {
+    height: 4px;
+    background-color: #6fb586;
+    width: 100px;
+    border: solid 0px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.aboutBox p {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.message{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(92, 92, 92);
+    width: 600px;
+    margin: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlap{
+    display: inline;
+    margin: auto;
+}
+
+.imageBox{
+    background-image: url("/media/home_03.webp");
+    background-position: center;
+
+    background-size: cover;
+    height: 400px;
+    width: 280px; 
+    margin-left: 100px;
+    border: solid 0;
+    border-radius: 5px;
+    margin: 70px;
+}
+
+.imageBox1{
+    background-image: url("/media/home_05.webp");
+    background-position: center;
+
+    background-size: cover;
+    height: 400px;
+    width: 280px; 
+    margin-left: 100px;
+    border: solid 0;
+    border-radius: 5px;
+    margin: 70px;
+}
+
+.imageBox2{
+    background-image: url("/media/home_07.webp");
+    background-position: center;
+
+    background-size: cover;
+    height: 400px;
+    width: 280px; 
+    margin-left: 100px;
+    border: solid 0;
+    border-radius: 5px;
+    margin: 70px;
+}
+
+
+.textBox{
+    display: block;
+    background-color: #196b16f1;
+    height: 400px;
+    width: 280px;
+    margin-top: -400px;
+    border: solid 0;
+    border-radius: 20px;
+    box-shadow: 20px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.hero-section{
+    display: flex;
+    /* padding-bottom: 100px; */
+}
+
+.suites-slider-inner{
+    /* position: relative; */
+    background-color: #0e5f29;
+}
+.slide-text{
+    text-align: left;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.slide-text button{
+    color: white;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+#carouselExampleCaptions{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.testimonials{
+    text-align: center;
+}
+
+.testimonials p {
+    margin-top: 50px;
+    font-size: 18px;
+    width: 700px;
+    margin: auto;
+}
+
+.testimonials h4 {
+    color: green;
+    margin-top: 30px;
+}
+
+
+.footer{
+    margin-top: 100px;
+    background-color: black;
+    /* height: 500px; */
+}
+
+.footer p {
+    font-size: 20px;
+    color: green;
+    font-weight: 800;
+    /* margin-left: 400px; */
+    
+    margin-top: 40px;
+}
+
+.footer h6{
+    color: white;
+    margin-left: 10px;
+}
+
+.footer span{
+    padding: 10px;
+    display: flex;
+    /* margin-left: 400px; */
+}
+
+.icon{
+    height: 20px;
+}
+
+
+
+/* Facilities */
+
+.topSection h2 {
+    color: white;
+    text-align: center;
+    margin-top: -200px;
+}
+
+
+.message2 h3{
+    color: green;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.message2 p {
+    text-align: center;
+    font-style: italic;
+}
+
+.message2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.couple img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0 solid;
+    border-radius: 20px;
+}
+
+.couple div{
+    width: 60%;
+    margin: auto;
+    background-color: green;
+    opacity: 0.8;
+    border: 0 solid;
+    border-radius: 5px;
+    margin-top: -100px;
+    padding: 50px;
+    text-transform: lowercase;
+}
+
+.couple p {
+    text-align: center;
+    z-index: 5;
+    opacity: 1.0;
+    color: white;
+}
+
+.large-triangles{
+    margin-top: 50px;
+    background-image: url("/media/large-triangles.svg");
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 70px;
+}
+
+.message3 h3{
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.message3 p {
+    text-align: center;
+    font-style: italic;
+}
+
+.message3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-frame{
+    width: 25%;
+    margin: auto;
+    margin-top: 100px;
+    border: solid 4px green;
+    padding: 20px;
+    text-align: center;
+}
+
+.new-frame img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+.new-frame h5{
+    color: green;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.wraper{
+    overflow: hidden;
+}
+
+.home-facilities{
+    margin-top: -100px;
+}
+
+/* suits  */
+
+.suits-top img{
+    margin-top: -400px;
+    
+}
+
+.suits-top h2{
+    text-align: center;
+    color: white;
+    margin-top: -250px;
+    margin-bottom: 250px;
+}
+
+/* discover */
+
+.attractions{
+    margin: 50px!important;
+}
+
+.nature{
+    background-image: url("/media/large-triangles.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.message3 h3{
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.message3 p {
+    text-align: center;
+    font-style: italic;
+}
+
+.message3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 760px) {
+
+    .attractions{
+        margin: 5px!important;
+    }
+    .attractions div{
+        padding: 10px!important;
+        margin: 0px!important;
+    }
+
+    .nature{
+        padding: 20px;
+    }
+
+    .suits-top img{
+        margin-top: auto;
+    }
+    .suits-top h2{
+        margin-top: -120px;
+        margin-bottom: 150px;
+        
+    }
+
+    .topimage h3{
+        margin: auto;
+        margin-top: -400px;
+        margin-left: 15px;
+    }
+
+    .topimage h2{
+        opacity: 1;
+        margin: auto;
+        width: 70%;
+        line-height: 1.4;
+        font-size: 22px;
+        margin-left: 15px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        padding-bottom: 165px;
+    }
+
+    .tImage{
+        width: 200%;
+        /* height: 500px; */
+    }
+
+    .aboutBox {
+        text-align: left;
+        padding: 10px;
+        /* margin-top: 300px; */
+    }
+
+    .aboutBox .divider-line{
+        margin: 0px;
+    }
+
+    .message{
+        width: auto;
+        margin-top: 50px;
+    }
+
+    .overlap{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-right: 20px!important;
+    }
+
+    #carouselExampleIndicators{
+        width: 100%;
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+
+    #carouselExampleCaptions{
+        width: 100%;
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+
+    #carouselExampleCaptions img {
+        height: auto;
+    }
+
+    .testimonials p{
+        width: auto;
+    }
+
+    .footer h6{
+        padding-left: 20px;
+    } 
+
+    .footer{
+        padding: 20px;
+    }
+
+    .topSection h2{
+        margin-top: -50px;
+    }
+    
+    .home-facilities{
+        margin: auto;
+    }
+
+    .message2 h3{
+        margin-top: 90px;
+    }
+
+    .couple img{
+        width: 95%;
+        margin-top: 100px;
+        border-radius: 10px;
+    }
+
+    .couple div{
+        width: 85%;
+        margin-top: -50px;
+        padding: 10px;
+    }
+
+    .large-triangles {
+        padding: 30px;
+    }
+
+    .new-frame{
+        width: 80%;
+    }
+
+    .s-details div{
+        padding: 20px!important;
+        margin: 0px!important;
+    }
+
+    .s-details{
+        margin-bottom: 80px;
+    }
+
+    .navbar-dark .navbar-toggler{
+        border-width: 0px;
+    }
+
+    .navbar-dark .navbar-toggler-icon{
+        background-image: url("/media/ellipsis.png")!important;
+    }
+
+    #carouselExampleCaptions{
+        position: relative;
+        margin: auto;
+    }
+
+    #carouselExampleCaptions img{
+        z-index: 1!important;
+        height: 350px!important;
+    }
+
+    .top-slide .carousel-indicators {
+        transform: rotate(90deg);
+        margin-left: 80%!important;
+        margin-right: 0%!important;
+        margin-bottom: 50%!important;
+    }
+
+    .top-slider-img {
+        height: 90vh;
+        color: white;
+        /* padding-top: 400px; */
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+
+    .top-slider-caption{
+        margin-top: -50%;
+        left: 5%!important;
+        text-align: left!important;
+    }
+
+    .top-slider-caption h5{
+        font-weight: 800;
+        /* margin-top: -60%; */
+        font-size: 15px;
+    }
+    .top-slider-caption p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .c-form{
+        background-color: white;
+        position: absolute;
+        z-index: 500!important;
+        margin-top: -50px!important;
+        padding: 20px;
+        margin: 4%;
+        border: solid 0;
+        border-radius: 7px;
+        width: 90%;
+    }
+
+    .index-container{
+        margin-top: 100px;
+    }
+
+    .call-me{
+        width: 100%;
+        border-radius: 50px!important;
+    }
+
+    .wp-me{
+        width: 100%;
+        border-radius: 50px!important;
+    }
+
+    .textBox{
+        text-align: left;
+        padding: 15px;
+        padding-top: 30px;
+        border-radius: 5px;
+    }
+
+    .textBox .divider-line{
+        margin: 0%;
+        margin-left: -15px;
+    }
+
+    .learn-more-btn{
+        padding: 10px!important;
+        width: 150px!important;
+    }
+
+    .testimonials h2{
+        margin-top: 50px;
+        color: green;
+        font-weight: 500;
+    }
+
+    .testimonials h5{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials img{
+        width: 30%;
+        margin-bottom: 50px;
+        margin-left: -30px;
+    }
+
+    #carouselExampleIndicators img{
+        height: 250px;
+    }
+
+    .suites-slider-inner p{
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .suites-slider-inner img{
+        height: 250px;
+    }
+
+    .suites-slider-inner h5{
+        margin-top: 30px;
+        text-align: left;
+        font-size: 25px;
+        font-weight: 800;
+        margin-left: 15px;
+    }
+
+    #carouselExampleIndicators .carousel-indicators {
+        position: absolute;
+        margin-left: 80%!important;
+        margin-right: 10%!important;
+        margin-bottom: 0%!important;
+        margin-top: 220px;
+        left: -50px!important;
+        bottom: auto;
+    }
+
+    #carouselExampleIndicators .carousel-control-prev{
+        font-size: 50px;
+        margin-top: -200px;
+    }
+
+    #carouselExampleIndicators .carousel-control-next{
+        font-size: 50px;
+        margin-top: -200px;
+    }
+
+
+
+    .call-img{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        z-index: 10;
+        background-color: white;
+        border: solid 0px;
+        border-radius: 10px;
+    }
+
+    .call-img img {
+        width: 40px;
+    }
+    .wp-img{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin-right: 30px;
+        margin-bottom: 90px;
+        z-index: 10;
+        background-color: white;
+        border: solid 0px;
+        border-radius: 10px;
+    }
+
+    .wp-img img {
+        width: 40px;
+    }
+
+
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+
+    .slideshow-container {
+        /* max-width: 1000px; */
+        position: relative;
+        margin: auto;
+      }
+      
+    .slideshow-container img{
+        z-index: 10;
+    }
+
+      /* Make the images invisible by default */
+      
+      
+      /* forward & Back buttons */
+      .Back, .forward {
+        cursor: pointer;
+        position: absolute;
+        top: 90px;
+        width: auto;
+        padding: 17px;
+        color: white!important;
+        z-index: 11;
+        transition: 0.4s ease;
+        border-radius: 0 5px 5px 0;
+        user-select: none;
+        font-size: 50px;
+      }
+      
+      /* Place the "forward button" to the right */
+      .forward {
+        right: 0;
+        border-radius: 4px 0 0 4px;
+      }
+      
+      /*when the user hovers,add a black background with some little opacity */
+
+      
+      /* Caption Info */
+      .Info {
+        color: #e3e3e3;
+        font-size: 16px;
+        padding: 10px 14px;
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Worknumbering (1/3 etc) */
+      .MessageInfo {
+        /* color: #f2f2f3; */
+        font-size: 14px;
+        padding: 10px 14px;
+        position: absolute;
+        top: 0;
+      }
+
+      .dot-container{
+          position: absolute;
+          right: 0;
+        margin-right: 20px;
+        margin-top: 220px;
+      }
+      
+      /* The circles or bullets and indicators */
+      .dots {
+        cursor: pointer;
+        height: 5px;
+        width: 5px;
+        margin: 0 1px;
+        background-color: #acc;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.5s ease;
+      }
+      
+      .enable, .dots:hover {
+        background-color: #717161;
+      }
+      
+      /* Faint animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.4s;
+        animation-name: fade;
+        animation-duration: 1.4s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .5}
+        to {opacity: 2}
+      }
+      
+      @keyframes fade {
+        from {opacity: .5}
+        to {opacity: 2}
+      }
+
+
+      .mybox{
+          /* margin: 10px; */
+          /* padding: 20px; */
+          text-align: center;
+      }
+
+      .mybox img {
+          width: 100%;
+          margin-bottom: 20px;
+          /* height: 250px; */
+      }
+
+
+}
+
+#carouselExampleControls .carousel-indicators {
+    margin-bottom: -20px !important;
+}
+
+#carouselExampleControls .carousel-indicators [data-bs-target]  {
+    color: #0e5f29;
+    margin: auto !important;
+    background-color: #0e5f29;
+    
+}
+
+
+#carouselExampleControlstest .carousel-control-next {
+    color: black !important;
+    z-index: 99999 !important;
+}
+#carouselExampleControlstest .carousel-control-prev {
+    color: #0e5f29 !important;
+}
